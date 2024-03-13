@@ -1,0 +1,30 @@
+<div class="container mt-5">
+    <h2>{{ recipe.nameRecipe }}</h2>
+    
+    <!-- Recipe Details -->
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{{ recipe.image }}" alt="{{ recipe.nameRecipe }}" class="img-fluid" />
+      </div>
+      <div class="col-md-6">
+        <h4>Category: {{ recipe.codeCategory }}</h4>
+        <p>Difficulty: 
+          <span *ngFor="let star of stars" class="fa fa-star" [ngClass]="{'checked': star}"></span>
+        </p>
+        <h5>Ingredients:</h5>
+        <ul>
+          <li *ngFor="let ingredient of recipe.products">
+            <i class="fa fa-check"></i> {{ ingredient }}
+          </li>
+        </ul>
+        
+        <h5>Method:</h5>
+        <ol>
+          <li *ngFor="let step of recipe.instructions">{{ step }}</li>
+        </ol>
+  
+        <button *ngIf="isCurrentUserRecipeOwner()" class="btn btn-danger" (click)="deleteRecipe()">Delete Recipe</button>
+      </div>
+    </div>
+  </div>
+  

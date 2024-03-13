@@ -1,0 +1,46 @@
+.card-wrapper{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-primary {
+    margin-top: 10px; /* תיזוז למעלה */
+    margin-bottom: 10px; /* תיזוז למטה */
+}
+
+.stars {
+    color: gold; /* צבע הכוכבים */
+}
+
+.stars i {
+    font-size: 1.5rem; /* גודל הכוכבים */
+    cursor: pointer;
+}
+.star {
+    color: #ccc; 
+    font-size: 1.2em;
+    margin-right: 5px; 
+  }
+
+  .filled {
+    color: #ffc107;     }
+
+  .stars-container {
+    display: flex; 
+  }
+  .card-title{
+      font-weight: bold;
+
+  }

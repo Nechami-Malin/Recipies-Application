@@ -1,0 +1,30 @@
+
+   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  
+  <div class="card-wrapper">
+    <div class="card border border-gray" style="width: 18rem; border-radius: 0;">
+      <img src={{recipe.image}} class="card-img-top" alt="Sunset Over the Sea"
+
+        style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+      <div class="card-body" style="border-top-left-radius: 0; border-top-right-radius: 0;">
+        <p class="card-title">{{recipe.nameRecipe}}</p>
+        <!-- <p class="card-text">Preparation Time: {{recipe.duration}}</p> -->
+        <p class="card-text">Preparation Time: {{ recipe.duration | durationFormat }}</p>
+
+  
+       
+        <div class="stars-container">
+          <div *ngFor="let star of [1, 2, 3, 4, 5]" class="star" [ngClass]="{'filled': star <=recipe.degree}">
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+  
+  
+        <button (click)="navigateBtn()" class="btn btn-primary">View Recipe</button>
+      </div>
+    </div>
+  </div>
+ 
+  

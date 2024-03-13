@@ -1,0 +1,45 @@
+<!-- <form [formGroup]="this.loginForm">
+    <div>
+        <label>name</label>
+        <input type="text" formControlName="name">
+        <ng-container *ngIf="this.loginForm.controls['name'].errors as nameErrors">
+            <p *ngIf="nameErrors['required']">You must fill this field</p>
+            <p *ngIf="nameErrors['minlength']">this field  is at least 2 chars!</p>
+        </ng-container>
+    </div>
+    <br>
+    <div>
+        <label>password</label>
+        <input type="text" formControlName="password">
+        <ng-container *ngIf="this.loginForm.controls['password'].errors as passwordErrors">
+            <p *ngIf="passwordErrors['required']">You must fill this field</p>
+            <p *ngIf="passwordErrors['minlength']">this field is  at least 4 digits</p>
+        </ng-container>
+    </div>
+    <button (click)="login()" [disabled]="!this.loginForm.valid">login</button>
+ </form>  -->
+
+<form [formGroup]="loginForm" class="login-form">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" formControlName="name" class="form-control" placeholder="Enter your name">
+    <div *ngIf="loginForm.controls['name'].touched && loginForm.controls['name'].errors" class="text-danger">
+      <p *ngIf="loginForm.controls['name'].hasError('required')">You must fill this field</p>
+      <p *ngIf="loginForm.controls['name'].hasError('minlength')">This field is at least 2 chars!</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" formControlName="password" class="form-control" placeholder="Enter your password">
+    <div id="password" *ngIf="loginForm.controls['password'].touched && loginForm.controls['password'].errors"
+      class="text-danger">
+      <p *ngIf="loginForm.controls['password'].hasError('required')">You must fill this field</p>
+      <p *ngIf="loginForm.controls['password'].hasError('minlength')">This field is at least 4 digits</p>
+    </div>
+    <div *ngIf="errorMessage" class="text-danger">
+      <p>{{ errorMessage }}</p>
+    </div>
+  </div>
+  <button (click)="login()" [disabled]="!loginForm.valid" class="btn btn-primary">Login</button>
+</form>
+-

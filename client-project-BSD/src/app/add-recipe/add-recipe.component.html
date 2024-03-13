@@ -1,0 +1,65 @@
+
+   <form [formGroup]="recipeForm" class="recipe-form" (submit)="onSubmit($event)">
+
+    <div class="form-group">
+        <label for="nameRecipe">Recipe Name</label>
+        <input type="text" formControlName="nameRecipe" class="form-control" placeholder="Enter recipe name">
+    </div>
+
+    <select formControlName="codeCategory" [(ngModel)]="selectedCategoryValue">
+        <option *ngFor="let category of categories" [value]="category.code">{{ category.name }}</option>
+      </select>
+    
+    <div class="form-group">
+        <label for="duration">Preparation Duration (minutes)</label>
+        <input type="number" formControlName="duration" class="form-control" placeholder="Enter preparation duration">
+    </div>
+
+    <div class="form-group">
+        <label for="degree">Difficulty Level (1-5)</label>
+        <input type="number" formControlName="degree" class="form-control" placeholder="Enter difficulty level">
+    </div>
+
+    <div class="form-group">
+        <label for="date">Date Added</label>
+        <input type="date" formControlName="date" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label for="image">Image URL</label>
+        <input type="text" formControlName="image" class="form-control" placeholder="Enter image URL">
+    </div>
+    <div formArrayName="products">
+        <div *ngFor="let ingredientCtrl of ingredients.controls; let i = index" class="form-group">
+            <label for="product">Ingredient {{ i + 1 }}</label>
+            <div class="input-group">
+                <input type="text" [formControl]="getIngredientFormControl(i)" class="form-control"
+                    placeholder="Enter ingredient">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-outline-danger" (click)="removeIngredient(i)">Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn btn-primary" (click)="addIngredient()">Add Ingredient</button>
+        </div>
+    </div>
+    <div formArrayName="instructions">
+        <div *ngFor="let instructionCtrl of instructions.controls; let i = index" class="form-group">
+            <label for="instruction">Instruction {{ i + 1 }}</label>
+            <div class="input-group">
+                <input type="text" [formControl]="getInstructionFormControl(i)" class="form-control"
+                    placeholder="Enter instruction">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-outline-danger" (click)="removeInstruction(i)">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-outline-primary" (click)="addInstruction()">Add Instruction</button>
+
+
+    <button type="button" class="btn btn-secondary" (click)="resetForm()">Reset Form</button>
+    <button type="submit" class="btn btn-primary">שמור מתכון</button>
+    <!-- <button type="submit">שמור מתכון</button> -->
+</form>

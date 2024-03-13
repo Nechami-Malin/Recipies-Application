@@ -1,0 +1,44 @@
+.navbar {
+    padding: 10px 20px;
+  }
+  
+  /* Brand/logo styling */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Link styling */
+  .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 20px; /* Adjust spacing between links */
+  }
+  
+  /* Active link styling */
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+  }
+  
+  /* Toggler icon color */
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  /* Home icon styling */
+  .navbar-brand .mat-icon {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+  }
+  
+  /* Logout link styling */
+  .navbar-nav.ml-auto .nav-link {
+    margin-left: 20px; /* Adjust spacing between links */
+  }
+  /* top-bar.component.css */
+
+/* top-bar.component.css */
+
+.navbar-nav .logout-link {
+    margin-left: auto;
+  }
+  

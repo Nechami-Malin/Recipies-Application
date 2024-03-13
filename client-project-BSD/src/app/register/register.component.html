@@ -1,0 +1,38 @@
+<!-- register.component.html -->
+
+<form [formGroup]="registerForm" class="login-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+
+      <input type="text" [(ngModel)]="name"  formControlName="name" class="form-control" placeholder="Enter your name" (input)="registerForm.controls['name'].markAsDirty()">
+      <div *ngIf="registerForm.controls['name'].touched && registerForm.controls['name'].errors" class="text-danger">
+        <p *ngIf="registerForm.controls['name'].hasError('required')">This field is required</p>
+        <p *ngIf="registerForm.controls['name'].hasError('minlength')">This field is at least 2 chars!</p>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="text" formControlName="address" class="form-control" placeholder="Enter your address" (input)="registerForm.controls['address'].markAsDirty()">
+      <!-- Add validation messages for address -->
+    </div>
+  
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" formControlName="email" class="form-control" placeholder="Enter your email" (input)="registerForm.controls['email'].markAsDirty()">
+      <div *ngIf="registerForm.controls['email'].touched && registerForm.controls['email'].errors" class="text-danger">
+        <p *ngIf="registerForm.controls['email'].hasError('email')">{{ emailErrorMessage }}</p>
+        <p *ngIf="registerForm.controls['email'].hasError('required')">This field is required</p>
+
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" formControlName="password" class="form-control" placeholder="Enter your password" (input)="registerForm.controls['password'].markAsDirty()">
+      <!-- Add validation messages for password -->
+    </div>
+  
+    <button (click)="register()" [disabled]="!registerForm.valid" class="btn btn-primary">Register</button>
+  </form>
+  
