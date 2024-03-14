@@ -10,7 +10,7 @@ export const routes: Routes = [
     { path: 'login', loadComponent: () => import('./login/login.component').then(c => c.LoginComponent) },
     { path: 'register', loadComponent: () => import('./register/register.component').then(c => c.RegisterComponent) },
     { path: 'logOut', loadComponent: () => import('./log-out/log-out.component').then(c => c.LogOutComponent) },
-
+    
     { path: 'recipies', loadChildren: () => import('./recipe/recipe.module').then(c => c.RecipeModule) },
     { path: '**', component: NotFoundComponent }
 

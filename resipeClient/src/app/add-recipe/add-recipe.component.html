@@ -5,7 +5,6 @@
         <label for="nameRecipe">Recipe Name</label>
         <input type="text" formControlName="nameRecipe" class="form-control" placeholder="Enter recipe name">
     </div>
-
     <select formControlName="codeCategory" [(ngModel)]="selectedCategoryValue">
         <option *ngFor="let category of categories" [value]="category.code">{{ category.name }}</option>
       </select>
@@ -60,6 +59,7 @@
 
 
     <button type="button" class="btn btn-secondary" (click)="resetForm()">Reset Form</button>
+   
     <button type="submit" class="btn btn-primary">שמור מתכון</button>
     <!-- <button type="submit">שמור מתכון</button> -->
 </form>

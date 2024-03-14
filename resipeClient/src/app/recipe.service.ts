@@ -24,5 +24,8 @@ export class RecipeService {
     return this.http.get('/api/Category');
     //043997
   }
+  editRecipe(recipe: Recipe): Observable<Recipe> {
+    return this.http.put<Recipe>(`https://localhost:7155/api/Recipe/${recipe.codeRecipe}`, recipe);
+  }
 }
 

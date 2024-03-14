@@ -20,8 +20,8 @@ export class LogOutComponent {
       showCancelButton: true,
       confirmButtonText: 'כן, התנתק',
       cancelButtonText: 'ביטול',
-      cancelButtonColor: 'rgb(255, 17, 164)',
-      confirmButtonColor: 'rgb(255, 17, 164)',
+      cancelButtonColor: 'rgb(204, 0, 0)',
+      confirmButtonColor: 'rgb(204, 0, 0)',
       reverseButtons: true
     }).then((result) => {
       if (result.isConfirmed) {

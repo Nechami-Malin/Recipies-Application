@@ -10,10 +10,11 @@ import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import { AddRecipeComponent } from './add-recipe/add-recipe.component';
 import { LoginComponent } from './login/login.component';
+import { EditRecipeComponent } from './edit-recipe/edit-recipe.component';
 
 @NgModule({
   declarations: [
-    LoginComponent,AddRecipeComponent
+    LoginComponent,AddRecipeComponent,EditRecipeComponent
   ],
   imports: [
     BrowserModule,

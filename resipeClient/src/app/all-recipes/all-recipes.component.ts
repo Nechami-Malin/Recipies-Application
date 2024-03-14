@@ -16,6 +16,7 @@ export class AllRecipesComponent {
 
 public  listRecipies:Recipe[]=[];
   ngOnInit():void{
+    alert("HHHHHHHH")
     this._recipeService.getRecipes().subscribe({
       next: (res) => {
         console.log("allrecipies",res);
