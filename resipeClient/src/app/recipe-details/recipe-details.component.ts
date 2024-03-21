@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { RecipeService } from '../recipe.service';
 import { Recipe } from '../recipe.model';
 import { CommonModule } from '@angular/common';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-recipe-details',
@@ -11,12 +12,14 @@ import { CommonModule } from '@angular/common';
   templateUrl: './recipe-details.component.html',
   styleUrl: './recipe-details.component.scss'
 })
+
 export class RecipeDetailsComponent {
   public recipe!: Recipe
   public itemId!: number
   stars: boolean[] = Array(5).fill(false);
-  isOwner: boolean=false;
-  constructor(private route: ActivatedRoute, private _recipeServie: RecipeService) { }
+  code:number | undefined
+
+  constructor(private route: ActivatedRoute, private _recipeServie: RecipeService,private router:Router) { }
   ngOnInit(): void {
     this.route.params.subscribe((param) => {
       this.itemId = param['id']
@@ -31,15 +34,37 @@ export class RecipeDetailsComponent {
         }
       })
     })
+    const userData=sessionStorage.getItem('userInfo');
+    if (userData) {
+      this.code = JSON.parse(userData).userCode;
+    }
   }
   
   isCurrentUserRecipeOwner(): boolean {
-    // Implement your logic to check if the current user is the owner of the recipe
-    // Set this.isOwner accordingly
-    return this.isOwner;
+    
+    if(this.code==this.recipe.codeUser)
+       return true;
+    return false;
+    
   }
 
   deleteRecipe(): void {
-    // Implement your logic to delete the recipe
+    this._recipeServie.deleteRecipe(this.recipe.codeRecipe)
+    .subscribe({
+      next:()=>{
+        Swal.fire(
+           'Deleted!!!!',
+           'The recipe was deleted successfully',
+           'success'
+        )
+      },
+      error:(err)=>{
+        Swal.fire(
+          'Error!!!!',
+          'error',
+          'error'
+       )
+      }
+    })
   }
 }

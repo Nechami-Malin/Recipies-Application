@@ -1,3 +1,51 @@
-<div *ngFor ="let r of listRecipies">
-    <app-one-recipe [recipe]="r"></app-one-recipe>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+integrity="sha512-vCgHm37HFbcF1IgGXU8n9OENc2MqXe3N2PzIVBwMBj/kX8n34fwvKqMzRWAw7iXs39uazN+JK0JlP9nGnugSng=="
+crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+<p-sidebar [(visible)]="sidebarVisible2" position="right" class="custom-sidebar">
+<div id="time-slider" class="slider">
+    <h3 class="h-filter">preparation time</h3>
+    <div>
+        <mat-slider class="slider" orientation="vertical" [color]="'accent'" [style.width.vw]="12"
+            class="example-margin" [disabled]="false" [max]="100" [min]="0" [step]="1" [discrete]="true"
+            [showTickMarks]="false" (input)="filterByTime(value1)">
+            <input matSliderThumb [(ngModel)]="value1" #slider>
+        </mat-slider>
+    </div>
 </div>
+<div id="level-slider" class="slider">
+    <h3 class="h-filter">difficulty level</h3>
+    <div>
+        <mat-slider class="slider" orientation="vertical" [color]="'accent'" [style.width.vw]="12"
+            class="example-margin" [disabled]="disabled" [max]="5" [min]="1" [step]="step" [discrete]="thumbLabel"
+            [showTickMarks]="showTicks" (input)="filterByDifficulty(value)">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+        </mat-slider>
+    </div>
+</div>
+<section class="categories-section">
+    <h4 class="h-filter">choose category</h4>
+    <p>cakes <mat-checkbox (change)="filterByCategory(1)"></mat-checkbox></p>
+    <p>cookies <mat-checkbox (change)="filterByCategory(2)"></mat-checkbox></p>
+    <p>sweet pies <mat-checkbox (change)="filterByCategory(3)"></mat-checkbox></p>
+    <p>petit fours <mat-checkbox (change)="filterByCategory(4)"></mat-checkbox></p>
+    <p>desserts <mat-checkbox (change)="filterByCategory(5)"></mat-checkbox></p>
+</section>
+</p-sidebar>
+
+<button mat-button id="buttonSideBar" (click)="sidebarVisible2 = true" *ngIf="sidebarVisible2 !== true">
+<mat-icon color="black">filter_alt</mat-icon>
+FILTER
+</button> 
+<div *ngFor="let r of filteredRecipes">
+<app-one-recipe [recipe]="r" class="listRecipies"></app-one-recipe>
+</div> 
+<div class="h-filter1">
+    <div class="custom-input">
+        <input class="narrow-input" type="text" placeholder="search recipe" [(ngModel)]="recipeNameFilter"
+            (ngModelChange)="filterByName()">
+        <button mat-icon-button>
+            <mat-icon style="color: #841f44;">search</mat-icon>
+        </button>
+    </div>
+</div> 

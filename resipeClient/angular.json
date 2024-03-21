@@ -69,11 +69,11 @@
           "configurations": {
             "production": {
               "buildTarget": "client-project:build:production",
-              "proxyConfig": "C:/Users/user1/Desktop/נחמי תכנות/שנה ב/angular/client-project-BSD/src/app/proxy.config.json"
+              "proxyConfig": "C:/Users/user1/Desktop/נחמי תכנות/שנה ב/angular/resipeClient/src/app/proxy.config.json"
             },
             "development": {
               "buildTarget": "client-project:build:development",
-              "proxyConfig": "C:/Users/user1/Desktop/נחמי תכנות/שנה ב/angular/client-project-BSD/src/app/proxy.config.json"
+              "proxyConfig": "C:/Users/user1/Desktop/נחמי תכנות/שנה ב/angular/resipeClient/src/app/proxy.config.json"
 
             }
           },

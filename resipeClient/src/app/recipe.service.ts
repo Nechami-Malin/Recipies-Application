@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Recipe } from './recipe.model';
-import { Category } from './category.model';
 
 @Injectable({
   providedIn: 'root'
@@ -26,6 +25,9 @@ export class RecipeService {
   }
   editRecipe(recipe: Recipe): Observable<Recipe> {
     return this.http.put<Recipe>(`https://localhost:7155/api/Recipe/${recipe.codeRecipe}`, recipe);
+  }
+  deleteRecipe(codeRecipe: number):Observable<any>{
+    return this.http.delete<Recipe>(`https://localhost:7155/api/Recipe/${codeRecipe}`)
   }
 }
 

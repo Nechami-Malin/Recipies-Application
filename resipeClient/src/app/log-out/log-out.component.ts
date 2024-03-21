@@ -26,6 +26,7 @@ export class LogOutComponent {
     }).then((result) => {
       if (result.isConfirmed) {
         sessionStorage.clear();
+        alert("cleared the session")
         this.router.navigate(['/home']); // ניתוב לדף הבית
       }
       this.router.navigate(['/home']); // ניתוב לדף הבית

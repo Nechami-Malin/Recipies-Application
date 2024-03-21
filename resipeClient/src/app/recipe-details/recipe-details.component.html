@@ -22,8 +22,11 @@
           <li *ngFor="let step of recipe.instructions">{{ step }}</li>
         </ol>
   
-        <button *ngIf="isCurrentUserRecipeOwner()" class="btn btn-danger" (click)="deleteRecipe()">Delete Recipe</button>
+        <button  class="btn btn-danger" (click)="deleteRecipe()">Delete Recipe</button>
       </div>
+    </div>
+    <div>
+
     </div>
   </div>
   

@@ -28,9 +28,6 @@ export class LoginComponent implements OnInit {
       "name": new FormControl("", [Validators.required, Validators.minLength(2)]),
       "password": new FormControl("", [Validators.required, Validators.minLength(4)]),
     })
-  }
-  saveDataInSessionStorage(): void {
-
     this._userService.getUser().subscribe({
       next: (res) => {
         alert("allrecipies"+res);
@@ -42,10 +39,17 @@ export class LoginComponent implements OnInit {
         console.error(error);
       }
     });
-    const code = this.arrUser.some(user => user.name === this.userName && user.password === this.password) ? this.arrUser.find(user => user.name === this.userName && user.password === this.password)?.code : undefined;
-    const userInfo = { username: this.userName, password: this.password,code:code};
+  }
+  saveDataInSessionStorage(): void {
+  let codeUser;
+    if(this.arrUser.some(u => u.name === this.userName && u.password === this.password))
+    {
+       codeUser= this.arrUser.find(u => u.name ===this.userName && u.password === this.password)?.code ;
+      alert("NOW WE WELL SE THE CODE!!!!!"+codeUser)
+    }    
+    const userInfo = { username: this.userName, password: this.password, userId : codeUser };
     sessionStorage.setItem('userInfo', JSON.stringify(userInfo));
-   alert(code+"code")
+
   }
   login(): void {
     this.userName = this.loginForm.get('name')?.value;
@@ -62,7 +66,7 @@ export class LoginComponent implements OnInit {
         else if (res == 1) {
           this.saveDataInSessionStorage();
           //מעבר לדף המתכונים
-          this.router.navigate(['/recipies'])
+          this.router.navigate(['/recipies/all-recipies'])
         }
         else {
           {

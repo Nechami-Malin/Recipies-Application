@@ -44,16 +44,8 @@ export class EditRecipeComponent implements OnInit {
       });
     });
 
-    // Fetch categories
-    this._recipeServie.getCregory().subscribe({
-      next: (res) => {
-        this.categories = res;
-        console.log("listCategory", this.categories);
-      },
-      error: (err) => {
-        console.log(err);
-      }
-    });
+    this.loadCategories();
+
   } 
 
   initRecipeForm(): void {
@@ -71,24 +63,13 @@ export class EditRecipeComponent implements OnInit {
 
   saveChanges(): void {
     if (this.recipeForm.valid) {
-      const updatedRecipe: Recipe = {
-        codeRecipe: this.recipe.codeRecipe,
-        nameRecipe: this.recipeForm.value.nameRecipe,
-        codeCategory: this.recipeForm.value.codeCategory,
-        duration: this.recipeForm.value.duration,
-        degree: this.recipeForm.value.degree,
-        date: this.recipeForm.value.date,
-        image: this.recipeForm.value.image,
-        products: this.recipeForm.value.products.split('\n').map((product: string) => product.trim()),
-        instructions: this.recipeForm.value.instructions.split('\n').map((instruction: string) => instruction.trim()),
-        codeUser: this.recipe.codeUser // Assume you don't allow the user to change the codeUser
-      };
+     
 
-      this._recipeServie.editRecipe(updatedRecipe).subscribe({
+      this._recipeServie.editRecipe(this.recipe).subscribe({
         next: (res) => {
-          this.recipe = res;
+          // this.recipe = res;
           console.log(res);
-          this.router.navigate(['recipies/details-recipe', this.itemId]);
+          this.router.navigate(['recipies/recipe-details', this.itemId]);
         },
         error: (err) => {
           console.log(err);
@@ -98,6 +79,11 @@ export class EditRecipeComponent implements OnInit {
   }
 
   cancel(): void {
-    this.router.navigate(['recipies/details-recipe', this.itemId]);
+    this.router.navigate(['recipies/recipe-details', this.itemId]);
+  }
+  loadCategories(): void {
+    this._recipeServie.getCregory().subscribe(categories => {
+      this.categories = categories;
+    });
   }
 }

@@ -1,0 +1,189 @@
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.Development.json
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.json
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.exe
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.deps.json
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.runtimeconfig.json
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.dll
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.pdb
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.AssemblyReference.cache
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfoInputs.cache
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfo.cs
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cs
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cache
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.build.json
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.development.json
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\scopedcss\bundle\RecipesApi.styles.css
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CopyComplete
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.dll
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\refint\RecipesApi.dll
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.pdb
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.genruntimeconfig.cache
+Y:\Groups\Group_2\בסה  מיכל\RecipeProject\RecipesApi\RecipesApi\obj\Debug\net6.0\ref\RecipesApi.dll
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfo.cs
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.dll
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\refint\RecipesApi.dll
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.pdb
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.json
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.exe
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.deps.json
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.runtimeconfig.json
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.dll
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.pdb
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\scopedcss\bundle\RecipesApi.styles.css
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CopyComplete
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.genruntimeconfig.cache
+C:\Users\user1\Desktop\RecipesApi\RecipesApi\obj\Debug\net6.0\ref\RecipesApi.dll
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.Development.json
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.json
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.exe
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.deps.json
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.runtimeconfig.json
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.dll
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.pdb
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.AssemblyReference.cache
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfoInputs.cache
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfo.cs
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CoreCompileInputs.cache
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cs
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cache
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\scopedcss\bundle\RecipesApi.styles.css
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CopyComplete
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.dll
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\refint\RecipesApi.dll
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.pdb
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.genruntimeconfig.cache
+C:\CHAGIT\studies\ו סמינר בסד\angular\פרויקט בסד\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\ref\RecipesApi.dll
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.Development.json
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.json
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.exe
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.deps.json
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.runtimeconfig.json
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.dll
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.pdb
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.AssemblyReference.cache
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfoInputs.cache
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfo.cs
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CoreCompileInputs.cache
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cs
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cache
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\scopedcss\bundle\RecipesApi.styles.css
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CopyComplete
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.dll
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\refint\RecipesApi.dll
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.pdb
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.genruntimeconfig.cache
+D:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\ref\RecipesApi.dll
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.Development.json
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.json
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.exe
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.deps.json
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.runtimeconfig.json
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.dll
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.pdb
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.AssemblyReference.cache
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfoInputs.cache
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfo.cs
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CoreCompileInputs.cache
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cs
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cache
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\scopedcss\bundle\RecipesApi.styles.css
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CopyComplete
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.dll
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\refint\RecipesApi.dll
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.pdb
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.genruntimeconfig.cache
+E:\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\ref\RecipesApi.dll
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.json
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.exe
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.deps.json
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.runtimeconfig.json
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.dll
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.pdb
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfo.cs
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\scopedcss\bundle\RecipesApi.styles.css
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CopyComplete
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.dll
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\refint\RecipesApi.dll
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.pdb
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.genruntimeconfig.cache
+C:\Users\user1\Desktop\סרבר חגית\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\ref\RecipesApi.dll
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\appsettings.json
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.exe
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.deps.json
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.runtimeconfig.json
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.dll
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\RecipesApi.pdb
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.AssemblyInfo.cs
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\scopedcss\bundle\RecipesApi.styles.css
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.csproj.CopyComplete
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.dll
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\refint\RecipesApi.dll
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.pdb
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\RecipesApi.genruntimeconfig.cache
+C:\Users\user1\Desktop\נחמי תכנות\שנה ב\angular\recipeServer\server-project\RecipesApi\RecipesApi\obj\Debug\net6.0\ref\RecipesApi.dll
